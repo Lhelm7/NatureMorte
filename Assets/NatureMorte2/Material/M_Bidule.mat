@@ -55,8 +55,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Max: -2.44
-    - _Min: 6.07
+    - _Max: -1.32
+    - _Min: 10
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Shades: -0.35

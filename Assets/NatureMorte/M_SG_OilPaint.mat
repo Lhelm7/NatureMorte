@@ -37,10 +37,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EffectRadius: 27.93
+    - _EffectRadius: 15
     - _Exposure: 0.7
-    - _LihgtBoost: 10.12
-    - _Strength: 3.18
+    - _LihgtBoost: 0.5
+    - _Strength: 1.5
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
