@@ -46,12 +46,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbiantOcclusion: 1
-    - _GrainStreght: 0.3
-    - _Metallic: 0
+    - _AmbiantOcclusion: 0
+    - _GrainStreght: 0.2
+    - _Metallic: -1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimPower: 3
+    - _RimPower: 2
     - _Smoothness: 0
     m_Colors:
     - _AlbedoColor: {r: 0, g: 0, b: 0, a: 1}

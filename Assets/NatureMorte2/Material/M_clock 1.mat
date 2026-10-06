@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_clock 1
-  m_Shader: {fileID: -6465566751694194690, guid: 854e2900111b79c47a6bc8d63cc3c350, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 41f37e00ecbca0e4a874a210f4596524, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -37,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _GrainTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,12 +59,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AmbiantOcclusion: 1
+    - _GrainStreght: 0
     - _Max: 0.7
+    - _Metallic: 0
     - _Min: 3.49
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RimPower: 0
     - _Shades: -0.95
+    - _Smoothness: 0
     m_Colors:
     - _AlbedoColor: {r: 0.36862743, g: 0.600144, b: 1, a: 1}
+    - _RimColor: {r: 0.89411765, g: 0.7176471, b: 0.16078432, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

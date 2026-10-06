@@ -47,11 +47,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _AmbiantOcclusion: 0.2
-    - _GrainStreght: -21.74
+    - _GrainStreght: -15
     - _Metallic: 0.8
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimPower: 2.54
+    - _RimPower: 3
     - _Smoothness: 0
     m_Colors:
     - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}

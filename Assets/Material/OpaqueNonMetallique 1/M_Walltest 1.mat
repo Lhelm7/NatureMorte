@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9141670662374156445
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Glass
-  m_Shader: {fileID: -6465566751694194690, guid: 7861b2dffd1e92f458ea6d15358ab8a7, type: 3}
+  m_Name: M_Walltest 1
+  m_Shader: {fileID: -6465566751694194690, guid: 854e2900111b79c47a6bc8d63cc3c350, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -59,17 +46,31 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _GlassOpacity: 0.47
-    - _GrainStreght: 0
+    - _AmbiantOcclusion: 1
+    - _GrainStreght: 1.5
+    - _Max: 0.31
     - _Metallic: 0
+    - _Min: 2.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimOpacity: 0
-    - _RimPower: 20
-    - _Smoothness: 0
-    - _Transparent: 0
+    - _RimPower: 3
+    - _Shades: -3
+    - _Smoothness: 0.7
     m_Colors:
-    - _AlbedoColor: {r: 0.93710685, g: 0.93710685, b: 0.93710685, a: 1}
-    - _RimColor: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
+    - _AlbedoColor: {r: 0.5647059, g: 0.09019608, b: 0.5921569, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &7400285559460236064
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10

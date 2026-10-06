@@ -40,9 +40,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Max: 6.12
-    - _Min: 0.77
-    - _Shades: 0.91
+    - _Min: 0.07
+    - _Shades: 0.93
     m_Colors:
-    - _AlbedoColor: {r: 0.41960785, g: 0.023529401, b: 0.3788304, a: 1}
+    - _AlbedoColor: {r: 0.5647059, g: 0.09019608, b: 0.5921569, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
