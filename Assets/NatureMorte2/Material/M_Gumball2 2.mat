@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Gumball2 2
   m_Shader: {fileID: -6465566751694194690, guid: 854e2900111b79c47a6bc8d63cc3c350, type: 3}
-  m_Parent: {fileID: 2100000, guid: 8fb314b19361ab643a433f0b8cbd4d77, type: 2}
+  m_Parent: {fileID: 2100000, guid: e9a78707d78afcc4db0a78aa784c32d8, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -39,9 +39,9 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Max: 5.25
-    - _Min: 0.64
-    - _Shades: 0.6
+    - _Max: 6.12
+    - _Min: 0.77
+    - _Shades: 0.91
     m_Colors:
     - _AlbedoColor: {r: 0.41960785, g: 0.023529401, b: 0.3788304, a: 1}
   m_BuildTextureStacks: []

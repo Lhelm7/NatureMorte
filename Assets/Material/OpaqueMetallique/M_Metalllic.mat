@@ -46,16 +46,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AmbiantOcclusion: 1
-    - _GrainStreght: 1.5
-    - _Metallic: 2
+    - _AmbiantOcclusion: 0.2
+    - _GrainStreght: -21.74
+    - _Metallic: 0.8
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimPower: 3
-    - _Smoothness: 1
+    - _RimPower: 2.54
+    - _Smoothness: 0
     m_Colors:
     - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0.509434, g: 0.34367174, b: 0, a: 0}
+    - _RimColor: {r: 0.5647059, g: 0.09019608, b: 0.5921569, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2766250650371452143
