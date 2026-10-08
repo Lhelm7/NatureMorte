@@ -55,11 +55,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Max: 1.31
-    - _Min: 3.63
+    - _Max: 0.87
+    - _Min: 3.24
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Shades: -0.52
+    - _Shades: 0.62
     m_Colors:
     - _AlbedoColor: {r: 0.6415094, g: 0.51703686, b: 0.010086561, a: 1}
   m_BuildTextureStacks: []
